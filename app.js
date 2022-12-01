@@ -48,6 +48,7 @@ function Load() {
     "MTH",
     "ME",
     "PHY",
+    "SDS",
     "SummerSem-1",
     "SummerSem-2",
     "SummerSem-3",
@@ -955,7 +956,7 @@ function Calculation() {
           break;
         }
         case "E": {
-          TotalCreditsPoint = TotalCreditsPoint + 2 * SubjectCredit;
+          TotalCreditsPoint = TotalCreditsPoint + 0 * SubjectCredit;
           TotalCredits = TotalCredits + SubjectCredit;
           break;
         }
